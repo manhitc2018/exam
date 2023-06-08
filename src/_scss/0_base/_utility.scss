@@ -1,0 +1,59 @@
+///*------------------------------------------------------------
+//Anchor position
+//------------------------------------------------------------*/
+
+
+//------------------------------------------------------------
+// margin
+//------------------------------------------------------------
+
+//------------------------------------------------------------
+// color
+//------------------------------------------------------------
+.u-nohover:hover,
+.u-nohover:hover img {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.u-center__margin {
+    margin: 0 auto;
+}
+
+.u-color__fff0502 {
+    color: rgba(255, 255, 255, 0.502);
+}
+
+.u-color__fff {
+    color: rgb(255, 255, 255);
+}
+
+.u-color__green173 {
+    color: rgb(0, 173, 160);
+}
+
+.u-color__000 {
+    color: rgb(0, 0, 0);
+}
+
+.u-bodercolor__000 {
+    border-color: rgb(0, 0, 0);
+}
+
+.u-bodercolor__green172 {
+    border-color: rgb(172, 222, 218);
+}
+
+.u-noborder {
+    border-width: 0;
+}
+
+.u-ellipsis__1 {
+    overflow: hidden;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+

@@ -1,0 +1,32 @@
+.c-info {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background: url(../../assets/img/index_pc/section02__bg.png);
+
+    .l-container {
+        padding: 0 23px 0 20px;
+    }
+
+    .c-title01 {
+        margin-bottom: 44px;
+    }
+
+    .c-info__subtitle {
+        font-size: 1.4rem;
+        font-family: $main-fonts;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+        line-height: 1.786;
+        text-align: center;
+        font-feature-settings: "palt";
+        margin-bottom: 45px;
+    }
+
+    .c-info__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+}
+

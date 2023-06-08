@@ -1,0 +1,46 @@
+.c-mainvisual {
+    position: relative;
+    overflow: hidden;
+
+    .c-mainvisual__slider {
+        &:not(.slick-initialized) {
+            .c-mainvisual__slideritem:nth-child(n+1) {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+
+    .c-mainvisual__bannerimg {
+        height: 700px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .c-mainvisual__bottom {
+        position: relative;
+        width: 1158px;
+    }
+
+    .c-mainvisual__bottomlayout {
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        z-index: 100;
+    }
+
+    .c-mainvisual__bottomtxt {
+        font-size: 2rem;
+        font-family: $main-fonts;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        line-height: 1;
+        width: 562px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 3px;
+        text-align: center;
+        padding: 8px 0;
+        margin-top: 34px;
+    }
+}
+

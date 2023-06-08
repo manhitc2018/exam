@@ -1,0 +1,32 @@
+/* layout
+------------------------------------------------------------*/
+body {
+    font-family: $main-fonts;
+    font-size: 1.4rem;
+    min-width: $base-width;
+    line-height: 1.5;
+    @include sp {
+        min-width: 320px;
+    }
+}
+//-------------------------------------------------------
+main {
+    // padding: 0px 0 100px;
+}
+
+
+
+//-------------------------------------------------------
+.l-container {
+    max-width: $base-width;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.l-container__w820 {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+//-------------------------------------------------------
+
