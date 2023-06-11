@@ -64,3 +64,25 @@
 @import "4_section/pickup";
 @import "4_section/info";
 @import "4_section/news";
+@import "4_section/banner";
+@import "4_section/section05";
+@import "4_section/section06";
+@import "4_section/section07";
+
+@include sp {
+    .c-header {
+        .c-nav__right,
+        .c-header__top {
+            display: none;
+        }
+
+        .l-container {
+            padding: 0;
+        }
+
+        .c-nav {
+            height: 70px;
+        }
+    }
+    
+}

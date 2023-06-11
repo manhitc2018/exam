@@ -1,0 +1,47 @@
+.c-banner {
+    background: url(../../assets/img/about/banner.png) no-repeat center center;
+    min-height: 400px;
+    background-size: cover;
+    position: relative;
+    @include tab {
+        min-height: 330px;
+    }
+    // kiểm tra lại font family và font weight
+    .c-banner__titleen {
+        font-family: $franklin-fonts;
+        font-weight: 400;
+        font-size: 5rem;
+        color: rgb(254, 254, 254);
+        line-height: 1;
+        @include sp {
+            font-size: 2.5rem;
+        }
+    }
+
+    .c-banner__content {
+        text-align: center;
+        position: absolute;
+        bottom: 46px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-feature-settings: "palt";
+        @include sp {
+            font-size: 2.5rem;
+            bottom: 115px;
+        }
+    }
+
+    .c-banner__subtitleja {
+        font-family: $main-fonts;
+        font-weight: 700;
+        font-size: 2.4rem;
+        color: rgb(254, 254, 254);
+        line-height: 1.5;
+        @include sp {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+  
+  

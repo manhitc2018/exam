@@ -1,6 +1,51 @@
 /* Breadcrumb
 ------------------------------------------------------------*/
 .c-breadcrumb {
-	
+    font-feature-settings: "palt";
+    display: flex;
+    align-items: center;
+    padding: 28px 0 35px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    @include sp {
+        padding: 20px 0;
+    }
+
+    .c-breadcrumb__home {
+        font-family: $main-fonts;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: rgb(0, 173, 160);
+        line-height: 1.2;
+        text-decoration: underline;
+        @include sp {
+            font-size: 1rem;
+        }
+    }
+
+    .c-breadcrumb__arrow {
+        font-family: $main-fonts;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #000;
+        line-height: 1.2;
+        margin-left: 17px;
+        margin-right: 16px;
+        @include sp {
+            font-size: 1rem;
+        }
+    }
+
+    .c-breadcrumb__present {
+        font-family: $main-fonts;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #000;
+        line-height: 1.2;
+        @include sp {
+            font-size: 1rem;
+        }
+    }
 }
+
+  
 

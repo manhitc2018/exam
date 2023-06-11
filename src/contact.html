@@ -1,0 +1,84 @@
+<%- include('_layouts/layout', { title: 'Contact page' }); -%>
+    <!-- @meta -->
+    <meta name="description" content="Contact page">
+    <!-- @@meta -->
+    <main class="contact">
+        <section class="c-banner">
+            <div class="c-banner__content">
+                <h2 class="c-banner__titleen">
+                    CONTACT
+                </h2>
+                <p class="c-banner__subtitleja">お問い合わせ</p>
+            </div>
+        </section>
+        <section class="c-contact">
+            <div class="l-container">
+                <div class="c-breadcrumb">
+                    <a href="./" class="c-breadcrumb__home">ホーム</a>
+                    <p class="c-breadcrumb__arrow"> > </p>
+                    <p class="c-breadcrumb__present">お問い合わせ</p>
+                </div>
+            </div>
+            <div class="l-container__w820">
+                <h2 class="c-contact__title">一般･学生の皆様へ</h2>
+                <p class="c-contact__des">
+                    この度は愛媛シゴト図鑑をご覧いただきありがとうございます。<br>
+                    愛媛シゴト図鑑を見て疑問に思ったこと、ご質問等ございましたら下記の問い合わせフォームにて意見をお寄せください<br>。少し聞きづらいなと思うようなことも遠慮なくご質問ください。愛媛シゴト図鑑は頑張る就活生を応援しています！
+                    個人情報の取扱に関しましては、プライバシーポリシーをご確認ください。<br>
+                    ※は入力必須です。
+                </p>
+
+                <form class="c-form01" id="contact__form">
+                    <div class="c-form01__item">
+                        <div class="c-form01__itemleft">
+                            <p class="c-form01__lefttxt" for="companyFamilyName">氏名<span class="c-form__require">※</span></p>
+                        </div>
+                        <div class="c-form01__itemright">
+                            <input class="c-form01__input" type="text" name="company name" id="companyFamilyName">
+                        </div>
+                    </div>
+                    <div class="c-form01__item">
+                        <div class="c-form01__itemleft">
+                            <p class="c-form01__lefttxt" for="schoolName">会社・学校名</p>
+                        </div>
+                        <div class="c-form01__itemright">
+                            <input class="c-form01__input" type="text" name="school name" id="schoolName">
+                        </div>
+                    </div>
+                    <div class="c-form01__item">
+                        <div class="c-form01__itemleft">
+                            <p class="c-form01__lefttxt" for="address">住所</p>
+                        </div>
+                        <div class="c-form01__itemright">
+                            <input class="c-form01__input" type="text" name="address" id="address">
+                        </div>
+                    </div>
+                    <div class="c-form01__item">
+                        <div class="c-form01__itemleft">
+                            <p class="c-form01__lefttxt" for="phone">電話番号<span class="c-form__require">※</span></p>
+                        </div>
+                        <div class="c-form01__itemright">
+                            <input class="c-form01__input" type="text" data-rules="required|number|max:10" name="phoneNumber" id="phone">
+                        </div>
+                    </div>
+                    <div class="c-form01__item">
+                        <div class="c-form01__itemleft">
+                            <p class="c-form01__lefttxt" for="email">メールアドレス<span class="c-form__require">※</span></p>
+                        </div>
+                        <div class="c-form01__itemright">
+                            <input class="c-form01__input" type="text" data-rules="required|email" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="c-form01__item">
+                        <div class="c-form01__itemleft">
+                            <p class="c-form01__lefttxt" for="pageSource">本サイトを知ったきっかけ</p>
+                        </div>
+                        <div class="c-form01__itemright">
+                            <input class="c-form01__input" type="text"  name="page source" id="pageSource">
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    </main>

@@ -1,0 +1,92 @@
+.c-section07 {
+    padding-top: 105px;
+    @include sp {
+        padding-top: 50px;
+    }
+
+    .l-container {
+        padding: 0 20px 0 15px;
+    }
+
+    .c-section07__title {
+        font-size: 2.6rem;
+        font-family: $main-fonts;
+        font-weight: 700;
+        color: rgb(2, 0, 0);
+        line-height: 1.154;
+        @include sp {
+            font-size: 2rem;
+        }
+    }
+
+    .c-section07__top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 480px;
+        width: 100%;
+        height: 70px;
+        margin: 0 auto;
+        border-top: 3px solid rgb(0, 0, 0);
+        border-bottom: 3px solid rgb(0, 0, 0);
+        margin-bottom: 70px;
+        @include sp {
+            margin-bottom: 35px;
+        }
+    }
+
+    .l-container__w820 {
+        padding: 0 18px 0 17px;
+    }
+
+    .c-section07__table {
+        width: 100%;
+    }
+
+    .c-table__tr {
+        display: flex;
+        border-top: 1px solid rgb(204, 204, 204);
+        padding: 23px 0;
+        @include sp {
+            flex-direction: column;
+            padding: 15px 0;
+        }
+
+        &:last-child {
+            border-bottom: 1px solid rgb(204, 204, 204);
+        }
+    }
+
+    .c-table__th {
+        display: flex;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: rgb(2, 0, 0);
+        line-height: 1.875;
+        font-family: $main-fonts;
+        width: 20.4%;
+        @include sp {
+            font-size: 1.4rem;
+            width: 100%;
+        }
+    }
+
+    .c-table__td {
+        display: flex;
+        font-size: 1.6rem;
+        font-family: $main-fonts;
+        font-weight: 400;
+        color: rgb(2, 0, 0);
+        line-height: 1.875;
+        flex: 1;
+        font-feature-settings: "palt";
+        @include sp {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+  
+
+  
+
